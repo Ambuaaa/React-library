@@ -13,7 +13,6 @@ function App() {
       counter = counter + 1 
       setCounter(counter) // or just do setCounter(counter-1)
     }
-
     
   }
 
@@ -42,7 +41,7 @@ function App() {
       onClick={addValue}
       >Add value {counter} </button> 
       <br />
-      <button onClick={removeValue}>Remove value </button>
+      <button onClick={removeValue}>Remove value {counter} </button>
       <p>footer: {counter} </p>
     </>
   )
