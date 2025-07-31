@@ -12,6 +12,9 @@ const [convertedAmount, setConvertedAmount] = useState(0)
 
 
 const currencyInfo = useCurrencyInfo(from)
+
+// extracting all the keys from the currencyInfo object and storing them in an array called options.
+// this line is preparing a list of currency codes to be used in your UI.
 const options = Object.keys(currencyInfo)
 
 
